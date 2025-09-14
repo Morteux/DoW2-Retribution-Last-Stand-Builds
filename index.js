@@ -38,7 +38,7 @@ function changeBuild(builds, image_path, key) {
         key = Object.keys(builds)[0];
     }
 
-    document.getElementById("build_title").innerHTML = key;
+    // document.getElementById("build_title").innerHTML = key;
     document.getElementById("build_role").innerHTML = builds[key].rol;
     document.getElementById("build_description").innerHTML = builds[key].descripcion;
     document.getElementById("hero_image").src = image_path + builds[key].imagen;
