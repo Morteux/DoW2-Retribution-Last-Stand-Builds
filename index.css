@@ -129,6 +129,12 @@ body {
     width: 100%;
 
     gap: 2vh;
+
+    background-image: url('images/frame.png');
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: top;
+    padding-top: 2vh;
 }
 
 .hero_select {
