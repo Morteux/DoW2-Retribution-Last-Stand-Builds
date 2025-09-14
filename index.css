@@ -155,6 +155,10 @@ body {
     gap: 2vh;
 }
 
+.hero_header {
+    width: 80%;
+}
+
 .build_title {
     font-family: "Moria_DF";
     font-size: 1.2rem;
